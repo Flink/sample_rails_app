@@ -22,10 +22,13 @@ gem 'factory_bot_rails',          '6.1.0'
 group :development, :test do
   # gem 'debase'
   # gem 'ruby-debug-ide'
+  gem 'awesome_print'
   gem 'rspec-rails',        '3.9.0'
   gem 'simplecov',          '0.17.1'
   gem 'sqlite3',            '1.4.1'
-  gem 'byebug',             '11.0.1', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'pry-byebug'
+  gem 'pry-doc'
+  gem 'pry-rails'
 end
 
 group :development do

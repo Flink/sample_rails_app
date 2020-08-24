@@ -1,0 +1,10 @@
+;;; Directory Local Variables
+;;; For more information see (info "(emacs) Directory Variables")
+((ruby-mode (ruby-test-runner . rspec)
+            (rspec-use-docker-when-possible . t)
+            (rspec-use-zeus-when-possible . nil)
+            (rspec-use-bundler-when-possible . nil)
+            (rspec-use-spring-when-possible . nil)
+            (rspec-spec-command . "bundle exec rspec")
+            (rspec-docker-command . "docker-compose run --rm -e TERM=dumb -e PAGER=cat app")
+            (rspec-docker-container . "")))

@@ -9,6 +9,7 @@ RSpec.describe User do
   end
 
   it "should be valid" do
+    binding.pry
     expect(@user.valid?).to eq(true)
   end
 
